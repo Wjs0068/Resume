@@ -1,0 +1,243 @@
+* {
+  padding: 0;
+  margin: 0;
+  
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.6%;
+}
+
+.blur{
+  font-size: 40px;
+        filter: blur(3px);
+        -webkit-filter: blur(3px);
+}
+
+
+.resume-container {
+  display: grid;
+  grid-template-columns: 3fr 6fr;
+  margin: 0 auto;
+  max-width: 140rem;
+}
+
+ul {
+  padding-left: 3rem;
+}
+
+/* personal info */
+
+.personal-container {
+  padding: 2.8rem 4.8rem 2.8rem 4.8rem;
+  background-color: #586f7c;
+}
+
+.first-header {
+  font-size: 5rem;
+  line-height: 1;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid black;
+}
+
+.icon {
+  color: black;
+  /* display: block */
+  background-color: white;
+  height: 3rem;
+  width: 3rem;
+  /* padding: 0.5rem; */
+  border-radius: 50%;
+}
+
+.icon:hover {
+  color: white;
+  background-color: black;
+  transition: all 0.3s;
+}
+.item {
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
+  
+  color: black;
+}
+
+.personal-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 1rem;
+  column-gap: 0.4rem;
+  font-size: 1.8rem;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+/* .personal-items a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* Skills */
+.skills-section {
+  grid-row: 2/3;
+  grid-column: 1/2;
+  background-color: #b8dbd9;
+  padding-bottom: 4rem;
+}
+
+.skills {
+  padding: 2.8rem 4.8rem 2.8rem 4.8rem;
+}
+
+.header-three {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+.line {
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.added {
+  margin-top: 2rem;
+}
+
+.line:first-child {
+  margin-top: 1rem;
+}
+
+.bold {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.tech {
+  font-size: 1.8rem;
+  padding-top: 0.6rem;
+  text;
+}
+
+/* Summary Section */
+
+.summary-section {
+  display: flex;
+  align-content: center;
+
+  padding: 2.8rem 4.8rem 2.8rem 4.8rem;
+  background-color: #b8dbd9;
+  height: 100%;
+}
+
+.summary {
+  justify-self: center;
+  align-self: center;
+}
+
+.summary-paragraph {
+  font-size: 1.7rem;
+  padding-top: 1rem;
+}
+
+/* Education */
+
+.education {
+  padding: 0 4.8rem 2.8rem 4.8rem;
+}
+
+.school-city {
+  font-size: 2.4rem;
+  margin-bottom: 1.2rem;
+  line-height: 1.2;
+}
+
+.school {
+  font-weight: bold;
+}
+
+.span-type {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.group {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+.detail {
+  font-size: 1.8rem;
+  padding-top: 2rem;
+}
+
+/* Work Experience */
+
+.work-experience {
+  padding: 2.8rem 4.8rem 2.8rem 4.8rem;
+}
+
+.work-container {
+  padding-bottom: 1.6rem;
+}
+
+.title-year {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-bottom: 0.2rem; */
+}
+
+.title {
+  font-size: 2.2rem;
+}
+
+.uses {
+  font-style: italic;
+  font-size: 1.8rem;
+  margin-top: .5rem;
+  
+}
+
+.year {
+  font-size: 1.8rem;
+}
+
+.company {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.addon {
+  line-height: 1.2;
+  margin-top: 1.6rem;
+}
+
+/* Project Experience */
+.project {
+  padding: 0 4.8rem 2.8rem 4.8rem;
+}
+
+.project-name {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 1.4rem;
+  padding-bottom: 1.2rem;
+}
+
+.summary-paragraph:last-child{
+  padding-bottom: 3rem;
+}
